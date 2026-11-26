@@ -7,8 +7,6 @@ Projekt opiera się na autorskim zbiorze danych, który przygotowałem samodziel
 **Status projektu:** zaimplementowana wersja bazowa (etap 2); rozpoczęta analiza błędów i przygotowanie optymalizacji (etap 3).
 
 
-![Przykładowe etapy detekcji znaków drogowych](assets/potok.png)
-
 
 ## Zbiór danych
 
