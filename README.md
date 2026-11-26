@@ -7,7 +7,7 @@ Projekt opiera się na autorskim zbiorze danych, który przygotowałem samodziel
 **Status projektu:** zaimplementowana wersja bazowa (etap 2); rozpoczęta analiza błędów i przygotowanie optymalizacji (etap 3).
 
 
-![Przykładowe etapy detekcji znaków drogowych](assets/potok.jpg)
+![Przykładowe etapy detekcji znaków drogowych](assets/potok.png)
 
 
 ## Zbiór danych
@@ -26,7 +26,7 @@ Zdjęcia są uporządkowane w trzech katalogach: `zakazu`, `nakazu` i `ostrzegaw
 | Inny znak | Pozostałe oznakowane znaki |
 
 
-![Przykładowe zdjęcia z autorskiego zbioru danych](assets/dane.jpg)
+![Przykładowe zdjęcia z autorskiego zbioru danych](assets/dane.png)
 
 
 ## Wykorzystane technologie
@@ -108,7 +108,7 @@ W notebooku zaraportowano następujące wyniki klasyfikacji:
 | Liczba próbek testowych | 35 ROI |
 
 
-![Macierz pomyłek klasyfikatora SVM](assets/macierz_pomylek.png)
+![Macierz pomyłek klasyfikatora SVM](assets/macierz_pomyłek.png)
 
 
 Wyniki są wstępne i dotyczą klasyfikacji ręcznie wybranych ROI, a nie skuteczności całego procesu wykrywania znaków na zdjęciach. Przypadki nieudanej segmentacji były odrzucane. Niewielka liczebność zbioru testowego ogranicza możliwość oceny generalizacji modelu. 
@@ -123,7 +123,7 @@ Podczas testowania wersji bazowej zidentyfikowałem następujące problemy:
 - Wpływ elementów tła w ROI na wyznaczane cechy, m.in. liczbę Eulera.
 
 
-![Przykład połączenia znaku z tłem podczas zamknięcia morfologicznego](assets/trudny_przypadek.jpg)
+![Przykład połączenia znaku z tłem podczas zamknięcia morfologicznego](assets/trudny_przypadek.png)
 
 
 ## Dalszy rozwój – etap 3
